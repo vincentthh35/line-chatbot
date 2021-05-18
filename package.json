@@ -1,6 +1,11 @@
 {
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
   "dependencies": {
     "@line/bot-sdk": "^7.3.0",
-    "dotenv-defaults": "^2.0.1"
+    "dotenv-defaults": "^2.0.1",
+    "express": "^4.17.1"
   }
 }
