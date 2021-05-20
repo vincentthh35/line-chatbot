@@ -60,6 +60,9 @@ const handleText = (message, replyToken) => {
         case 'Django':
         case 'Leetcode':
         case 'leetcode':
+        case 'linkedin':
+        case 'LinkedIn':
+        case 'Linkedin':
         case '簡易爬蟲網站':
         case '爬蟲網站':
             console.log(`replying ${message.text}`);
