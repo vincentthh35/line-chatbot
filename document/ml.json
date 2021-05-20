@@ -1,0 +1,84 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "機器學習相關"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "我從大二上開始就陸陸續續修了一些與機器學習相關的課程，包林軒田教授開設的機器學習基石與技法課程，以及正在修習的李宏毅教授所開的機器學習實務課程。目前加入了徐宏民教授的實驗室，希望可以學到更多有關機器學習的知識。",
+            "wrap": true
+          },
+          {
+            "type": "spacer",
+            "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "Projects"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "參加過芒果影像辨識的線上比賽，以及課堂期末專題的樂譜辨識系統，還有關於人臉辨識的小 project。目前也在個人網站上分享機器學習相關論文的心得筆記。",
+            "wrap": true
+          },
+          {
+            "type": "spacer"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "個人網站",
+          "text": "個人網站"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "回到自我介紹",
+          "text": "回到自我介紹"
+        }
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

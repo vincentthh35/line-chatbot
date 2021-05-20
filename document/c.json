@@ -1,0 +1,84 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "C/C++"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "從高中就開始學習 C++，但是並沒有花非常多的時間在上面，主要還是以課業為重。現在比較常使用 C++ 來解演算法的題目（刷 Leetcode）。",
+            "wrap": true
+          },
+          {
+            "type": "spacer",
+            "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "Projects"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "wrap": true,
+            "text": "1. 簡易的 http server"
+          },
+          {
+            "type": "spacer"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "Leetcode 個人檔案",
+          "text": "Leetcode"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "回到自我介紹",
+          "text": "回到自我介紹"
+        }
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

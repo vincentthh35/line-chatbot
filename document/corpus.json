@@ -1,0 +1,11 @@
+{
+    "greeting_text": "哈囉你好，我是正在就讀台大資工系大三的謝宗晅",
+    "unknown_text": "我可能不懂你的訊息是什麼...",
+    "greeting_alt": "哈囉，我是謝宗晅...",
+    "intro_alt": "我的自我介紹...",
+    "ml_alt": "關於機器學習的介紹...",
+    "web_alt": "關於網頁的自介...",
+    "hobby_alt": "關於興趣的分享...",
+    "c_alt": "關於 C/C++ 的經驗...",
+    "favorite_song": "https://www.youtube.com/watch?v=06-puNWFuMQ"
+}

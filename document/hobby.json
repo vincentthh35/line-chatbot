@@ -1,0 +1,84 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "興趣"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "最主要的興趣是音樂，喜歡聽爵士樂和古典樂，也喜歡彈鋼琴。除此之外也喜歡打羽球、畫畫等等的。歡迎找我討論音樂~",
+            "wrap": true
+          },
+          {
+            "type": "spacer",
+            "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "目前最喜歡的..."
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "wrap": true,
+            "text": "目前最喜歡的音樂家是蕭邦，其中最喜歡他的 Ballade No. 1 in g minor，而鋼琴家的部份我最喜歡 Maurizio Pollini。"
+          },
+          {
+            "type": "spacer"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "height": "sm",
+        "action": {
+          "type": "message",
+          "label": "聽一下你最喜歡的曲子",
+          "text": "聽一下你最喜歡的曲子"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "回到自我介紹",
+          "text": "回到自我介紹"
+        }
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}

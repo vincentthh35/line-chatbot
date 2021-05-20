@@ -1,11 +1,18 @@
 {
+  "engines": {
+    "node": "16.0.x"
+  },
   "type": "module",
   "scripts": {
-    "start": "node app.js"
+    "server": "nodemon --experimental-json-modules  app.js",
+    "start": "node --experimental-json-modules app.js"
   },
   "dependencies": {
     "@line/bot-sdk": "^7.3.0",
     "dotenv-defaults": "^2.0.1",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }

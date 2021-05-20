@@ -1,0 +1,26 @@
+{
+    "github": {
+        "title": " github",
+        "content": "https://github.com/vincentthh35/"
+    },
+    "facebook": {
+        "title": "臉書",
+        "content": "https://www.facebook.com/profile.php?id=100000153481594"
+    },
+    "email": {
+        "title": " email",
+        "content": "vincentthh35@gmail.com"
+    },
+    "website": {
+        "title": "個人網站",
+        "content": "https://vincentthh35.csie.org/"
+    },
+    "django": {
+        "title": "簡易爬蟲網站",
+        "content": "https://stockfiltering.herokuapp.com/"
+    },
+    "leetcode": {
+        "title": " Leetcode 個人檔案",
+        "content": "https://leetcode.com/vincentthh35/"
+    }
+}

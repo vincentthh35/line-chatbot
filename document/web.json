@@ -1,0 +1,105 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "網頁相關"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "text": "我從大二下開始接觸網頁相關的技術，最早接觸到的框架是 Python 的 Django 框架。而為了個人部落格的需求也接觸到了以 GoLang 實作的 Hugo 框架。最近正在學習 React.js + Node.js。",
+            "wrap": true
+          },
+          {
+            "type": "spacer",
+            "size": "lg"
+          }
+        ]
+      },
+      {
+        "type": "text",
+        "weight": "regular",
+        "size": "xl",
+        "text": "Projects"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "margin": "lg",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "text",
+            "wrap": true,
+            "text": "1. 使用 Django 框架的簡易爬蟲網站（已經有一段時間沒有維護了）"
+          },
+          {
+            "type": "text",
+            "wrap": true,
+            "text": "2. 基於 Hugo 框架的個人網站"
+          },
+          {
+            "type": "spacer"
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "簡易爬蟲網站",
+              "text": "簡易爬蟲網站"
+            }
+          },
+          {
+            "type": "button",
+            "style": "link",
+            "height": "sm",
+            "action": {
+              "type": "message",
+              "label": "個人網站",
+              "text": "個人網站"
+            }
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "回到自我介紹",
+          "text": "回到自我介紹"
+        }
+      },
+      {
+        "type": "spacer",
+        "size": "sm"
+      }
+    ],
+    "flex": 0
+  }
+}
