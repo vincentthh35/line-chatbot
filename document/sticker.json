@@ -1,10 +1,44 @@
 {
-    "helloSticker": {
-        "packageId": "11538",
-        "stickerId": "51626494"
+    "hi": {
+        "moon": {
+            "packageId": "11538",
+            "stickerId": "51626494"
+        },
+        "sally": {
+            "packageId": "789",
+            "stickerId": "10855"
+        },
+        "sally2": {
+            "packageId": "11537",
+            "stickerId": "52002741"
+        },
+        "cony": {
+            "packageId": "11537",
+            "stickerId": "52002738"
+        }
     },
     "bug": {
-        "packageId": "11538",
-        "stickerId": "51626519"
+        "bug": {
+            "packageId": "11538",
+            "stickerId": "51626519"
+        },
+        "sally": {
+            "packageId": "789",
+            "stickerId": "10881"
+        },
+        "cony": {
+            "packageId": "6632",
+            "stickerId": "11825389"
+        }
+    },
+    "question": {
+        "sally": {
+            "packageId": "789",
+            "stickerId": "10877"
+        },
+        "brown": {
+            "packageId": "11537",
+            "stickerId": "52002744"
+        }
     }
 }

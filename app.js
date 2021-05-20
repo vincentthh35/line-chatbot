@@ -28,7 +28,7 @@ const replyType = [
     'message'
 ];
 import corpus from './document/corpus.json';
-import sticker, { genStickerMessage, randomSticker } from './sticker.js';
+import sticker, { genStickerMessage, randomSticker, randomStickerFromCategory } from './sticker.js';
 import social from './document/social.json';
 import flex_greeting from './document/greeting.json';
 import flex_intro from './document/intro.json';
@@ -133,7 +133,14 @@ const handleText = (message, replyToken) => {
             // default: return random sticker
             return client.replyMessage(replyToken, genStickerMessage(randomSticker()));
     }
+};
 
+const handleSticker = (message, replyToken, source) => {
+    if (message.keywords) {
+
+    }
+    // return random sticker by default
+    return client.replyMessage(replyToken, genStickerMessage(randomSticker()));
 };
 
 const handleMessage = (message, replyToken, source) => {
@@ -154,6 +161,7 @@ const handleMessage = (message, replyToken, source) => {
         case 'sticker':
             // sticker messages
             // message.keywords is an array containing sticker keywords
+            return handleSticker(message, replyToken, source);
             break;
         default:
             reply_message.text = corpus.unknown_text;
@@ -184,7 +192,7 @@ function handleEvent(event) {
         case 'follow':
             // greeting here
             console.log(`join/follow: ${JSON.stringify(event)}`);
-            return client.pushMessage(event.source.userId, genStickerMessage(sticker.helloSticker))
+            return client.pushMessage(event.source.userId, genStickerMessage(randomStickerFromCategory('hi')))
                 .then(() => {
                     return client.replyMessage(event.replyToken, {
                         altText: corpus.greeting_alt,
