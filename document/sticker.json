@@ -17,6 +17,38 @@
             "stickerId": "52002738"
         }
     },
+    "good": {
+        "james": {
+            "packageId": "11538",
+            "stickerId": "51626496"
+        },
+        "boss": {
+            "packageId": "11538",
+            "stickerId": "51626498"
+        },
+        "bug": {
+            "packageId": "11538",
+            "stickerId": "51626527"
+        }
+    },
+    "sad": {
+        "moon": {
+            "packageId": "11538",
+            "stickerId": "51626522"
+        },
+        "sally": {
+            "packageId": "11537",
+            "stickerId": "52002766"
+        },
+        "sally2": {
+            "packageId": "11537",
+            "stickerId": "52002750"
+        },
+        "cony": {
+            "packageId": "11537",
+            "stickerId": "52002765"
+        }
+    },
     "bug": {
         "bug": {
             "packageId": "11538",

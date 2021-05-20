@@ -136,8 +136,24 @@ const handleText = (message, replyToken) => {
 };
 
 const handleSticker = (message, replyToken, source) => {
-    if (message.keywords) {
-
+    const keywords = message.keywords;
+    if (keywords) {
+        if (keywords.includes('hi') || keywords.includes('greeting') ||
+            keywords.includes('hey') || keywords.includes('Hello')) {
+                return client.replyMessage(replyToken, genStickerMessage('hi'));
+        } else
+        if (keywords.includes('OK') || keywords.includes('good') || keywords.includes('Wow') ||
+            keywords.includes('nice') || keywords.includes('Fun')) {
+                return client.replyMessage(replyToken, genStickerMessage('good'));
+        } else
+        if (keywords.includes('Sad') || keywords.includes('down') ||
+            keywords.includes('blue') || keywords.includes('sorrow')) {
+                return client.replyMessage(replyToken, genStickerMessage('sad'));
+        } else {
+            if (Math.random() > 0.5) {
+                return client.replyMessage(replyToken, genStickerMessage('bug'));
+            }
+        }
     }
     // return random sticker by default
     return client.replyMessage(replyToken, genStickerMessage(randomSticker()));
@@ -192,7 +208,7 @@ function handleEvent(event) {
         case 'follow':
             // greeting here
             console.log(`join/follow: ${JSON.stringify(event)}`);
-            return client.pushMessage(event.source.userId, genStickerMessage(randomStickerFromCategory('hi')))
+            return client.pushMessage(event.source.userId, genStickerMessage('hi'))
                 .then(() => {
                     return client.replyMessage(event.replyToken, {
                         altText: corpus.greeting_alt,
